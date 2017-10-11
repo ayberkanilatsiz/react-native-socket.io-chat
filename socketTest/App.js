@@ -30,7 +30,7 @@ export default class App extends Component<{}> {
       isReady:false,
     }
 
-    this.socket = SocketIOClient('http://192.168.1.183:3000');
+    this.socket = SocketIOClient('http://localhost:3000'); //This should be your ip or local 
     this.socket.on('messages', this.onReceivedMessage);
     this.socket.on('userId', this.getUserId);
   }
