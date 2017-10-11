@@ -9,7 +9,6 @@ import {
 } from 'react-native';
 
 import { GiftedChat } from 'react-native-gifted-chat';
-
 import SocketIOClient from 'socket.io-client';
 
 
